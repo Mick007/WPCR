@@ -1,0 +1,198 @@
+/* table styles */
+
+table.cp-table{
+
+  margin: 10px 0px 10px 0px;
+
+  padding: 0px;
+
+  border: 0px;
+
+  font-size: 15px;
+
+  font-style: normal;
+
+  font-family: Calibri, Helvetica, sans-serif;
+
+  line-height: normal;
+
+  background-color: #111111;
+
+  color: #111111; /*couleur police*/
+  /*font-weight: normal;*/
+  
+}
+
+table.cp-table tr:nth-child(even) {
+
+	background-color: #ffffff; /*couleur surlignage*/
+
+}
+
+table.cp-table tr:hover {
+
+	background-color: ;
+
+    color: #007aff; /*couleur police hover*/
+
+}
+
+table.cp-table a{
+
+  color: #ffffff;
+
+}
+
+table.cp-table td, 
+
+table.cp-table th {
+
+	border: 0px;
+
+	padding: 6px 10px 6px 10px;
+
+	border-bottom: 1px solid #ececec;
+
+
+
+}
+
+table.cp-table th {
+
+	padding: 12px 10px 12px 10px;
+
+  font-weight: bold;
+
+  background-color: #ececec; /*bandeau du tableau*/
+
+  color: #2d3436;
+
+}
+
+table.cp-table td img {
+
+	width: 24px;
+
+}
+
+table.cp-table .change-dec {
+
+  color: #dd4433; /*Negatif*/
+
+}
+
+table.cp-table .change-inc {
+
+  color: #009933; /*Positif*/
+
+}
+
+/* form styles */
+
+form.cp-form{
+
+  margin: 10px 0px 10px 0px;
+
+  padding: 0px;
+
+  border: 0px;
+
+  font-size: 18px;
+
+}
+
+form.cp-form table{
+
+  margin: 0px;
+
+  padding: 0px;
+
+  border: 0px;
+
+}
+
+form.cp-form table td,
+
+form.cp-form table th{
+
+	border: 0px;
+
+	padding: 6px 10px 6px 10px;
+
+}
+
+form.cp-form input, 
+
+form.cp-form input:focus,
+
+form.cp-form input[type="submit"],
+
+form.cp-form select{
+
+  padding: 16px 10px 16px 10px;
+
+  margin: 0px;
+
+  border: 0px;
+
+  -webkit-border-radius: 5px;
+
+  -moz-border-radius: 5px;
+
+  border-radius: 5px;
+
+  font-size: 18px;
+
+  line-height: normal;
+
+  background-color: #000000;
+
+  color: #ffffff;
+
+  box-shadow: none;
+
+
+
+}
+
+form.cp-form input[type="submit"]{
+
+  padding: 16px 20px 16px 20px;
+
+  background-color: #000000;
+
+}
+
+form.cp-form label{
+
+  font-size: 18px;
+
+  color: #111111;
+
+}
+
+form.cp-form-chart{
+
+  margin: 0px;
+
+  font-size: 14px;
+
+}
+
+form.cp-form-chart select{
+
+  padding: 6px 4px 6px 4px;
+
+  margin: 0px;
+
+  font-size: 14px;
+
+}
+
+form.cp-form-chart label{
+
+  font-size: 14px;
+
+  color: #111111;
+
+}
